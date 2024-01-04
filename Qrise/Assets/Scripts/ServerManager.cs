@@ -34,7 +34,6 @@ public class ServerManager : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.LeaveRoom();
             SceneManager.LoadScene(0);
- 
         }
     }
     public override void OnConnectedToMaster()
